@@ -1,0 +1,3314 @@
+{
+  "cities": [
+    {
+      "name": "تهران",
+      "id": 1,
+      "slug": "tehran",
+      "radius": 25000,
+      "centroid": {
+        "latitude": 35.717358,
+        "longitude": 51.375076
+      }
+    },
+    {
+      "name": "مشهد",
+      "id": 3,
+      "slug": "mashhad",
+      "radius": 20000,
+      "centroid": {
+        "latitude": 36.304897,
+        "longitude": 59.577873
+      }
+    },
+    {
+      "name": "کرج",
+      "id": 2,
+      "slug": "karaj",
+      "radius": 25000,
+      "centroid": {
+        "latitude": 35.816933,
+        "longitude": 50.95845
+      }
+    },
+    {
+      "name": "شیراز",
+      "id": 6,
+      "slug": "shiraz",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 29.639816,
+        "longitude": 52.5119
+      }
+    },
+    {
+      "name": "اصفهان",
+      "id": 4,
+      "slug": "isfahan",
+      "radius": 20000,
+      "centroid": {
+        "latitude": 32.657566,
+        "longitude": 51.672817
+      }
+    },
+    {
+      "name": "اهواز",
+      "id": 7,
+      "slug": "ahvaz",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 31.362139,
+        "longitude": 48.65707
+      }
+    },
+    {
+      "name": "تبریز",
+      "id": 5,
+      "slug": "tabriz",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 38.072517,
+        "longitude": 46.29488
+      }
+    },
+    {
+      "name": "کرمانشاه",
+      "id": 9,
+      "slug": "kermanshah",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 34.336857,
+        "longitude": 47.09223
+      }
+    },
+    {
+      "name": "قم",
+      "id": 8,
+      "slug": "qom",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 34.620422,
+        "longitude": 50.853737
+      }
+    },
+    {
+      "name": "رشت",
+      "id": 12,
+      "slug": "rasht",
+      "radius": 20000,
+      "centroid": {
+        "latitude": 37.261196,
+        "longitude": 49.593647
+      }
+    },
+    {
+      "name": "آبادان",
+      "id": 24,
+      "slug": "abadan",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 30.317375,
+        "longitude": 48.334488
+      }
+    },
+    {
+      "name": "آباده",
+      "id": 851,
+      "slug": "abadeh",
+      "radius": 3950,
+      "centroid": {
+        "latitude": 31.162325,
+        "longitude": 52.646828
+      }
+    },
+    {
+      "name": "آبدانان",
+      "id": 775,
+      "slug": "abdanan",
+      "radius": 3150,
+      "centroid": {
+        "latitude": 32.99174,
+        "longitude": 47.421654
+      }
+    },
+    {
+      "name": "آبسرد",
+      "id": 1709,
+      "slug": "absard",
+      "radius": 6748,
+      "centroid": {
+        "latitude": 35.63648,
+        "longitude": 52.165962
+      }
+    },
+    {
+      "name": "آبعلی",
+      "id": 1715,
+      "slug": "abali",
+      "radius": 2103,
+      "centroid": {
+        "latitude": 35.76871,
+        "longitude": 51.9612
+      }
+    },
+    {
+      "name": "آبیک",
+      "id": 869,
+      "slug": "abyek",
+      "radius": 3000,
+      "centroid": {
+        "latitude": 36.046852,
+        "longitude": 50.535755
+      }
+    },
+    {
+      "name": "آذرشهر",
+      "id": 853,
+      "slug": "azarshahr",
+      "radius": 4800,
+      "centroid": {
+        "latitude": 37.753826,
+        "longitude": 45.982502
+      }
+    },
+    {
+      "name": "آران و بیدگل",
+      "id": 1737,
+      "slug": "aran-va-bidgol",
+      "radius": 3001,
+      "centroid": {
+        "latitude": 34.061275,
+        "longitude": 51.47581
+      }
+    },
+    {
+      "name": "آزادشهر",
+      "id": 1691,
+      "slug": "azadshahr-golestan",
+      "radius": 2563,
+      "centroid": {
+        "latitude": 37.08735,
+        "longitude": 55.177788
+      }
+    },
+    {
+      "name": "آسارا",
+      "id": 1722,
+      "slug": "asara",
+      "radius": 1044,
+      "centroid": {
+        "latitude": 36.03806,
+        "longitude": 51.19354
+      }
+    },
+    {
+      "name": "آستارا",
+      "id": 824,
+      "slug": "astara",
+      "radius": 4800,
+      "centroid": {
+        "latitude": 38.427353,
+        "longitude": 48.861893
+      }
+    },
+    {
+      "name": "آستانه اشرفیه",
+      "id": 825,
+      "slug": "astaneh-ashrafiyeh",
+      "radius": 2060,
+      "centroid": {
+        "latitude": 37.265373,
+        "longitude": 49.938736
+      }
+    },
+    {
+      "name": "آشخانه",
+      "id": 793,
+      "slug": "ashkhaneh",
+      "radius": 1680,
+      "centroid": {
+        "latitude": 37.558823,
+        "longitude": 56.92376
+      }
+    },
+    {
+      "name": "آق قلا",
+      "id": 748,
+      "slug": "aq-qala",
+      "radius": 1645,
+      "centroid": {
+        "latitude": 37.01281,
+        "longitude": 54.45628
+      }
+    },
+    {
+      "name": "آمل",
+      "id": 663,
+      "slug": "amol",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 36.46499,
+        "longitude": 52.356953
+      }
+    },
+    {
+      "name": "ابریشم",
+      "id": 1723,
+      "slug": "abrisham-isfahan",
+      "radius": 3259,
+      "centroid": {
+        "latitude": 32.570827,
+        "longitude": 51.57263
+      }
+    },
+    {
+      "name": "ابهر",
+      "id": 802,
+      "slug": "abhar",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 36.14811,
+        "longitude": 49.23506
+      }
+    },
+    {
+      "name": "اراک",
+      "id": 15,
+      "slug": "arak",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 34.08251,
+        "longitude": 49.70063
+      }
+    },
+    {
+      "name": "ارجمند",
+      "id": 1714,
+      "slug": "arjmand",
+      "radius": 1080,
+      "centroid": {
+        "latitude": 35.81531,
+        "longitude": 52.512783
+      }
+    },
+    {
+      "name": "اردکان",
+      "id": 846,
+      "slug": "ardakan",
+      "radius": 3200,
+      "centroid": {
+        "latitude": 32.30908,
+        "longitude": 54.014355
+      }
+    },
+    {
+      "name": "اردبیل",
+      "id": 17,
+      "slug": "ardabil",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 38.2647,
+        "longitude": 48.318043
+      }
+    },
+    {
+      "name": "ارومیه",
+      "id": 10,
+      "slug": "urmia",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 37.55548,
+        "longitude": 45.056343
+      }
+    },
+    {
+      "name": "ازنا",
+      "id": 870,
+      "slug": "azna",
+      "radius": 5600,
+      "centroid": {
+        "latitude": 33.451534,
+        "longitude": 49.453358
+      }
+    },
+    {
+      "name": "اسدآباد",
+      "id": 842,
+      "slug": "asadabad",
+      "radius": 2900,
+      "centroid": {
+        "latitude": 34.78158,
+        "longitude": 48.120094
+      }
+    },
+    {
+      "name": "اسالم",
+      "id": 1812,
+      "slug": "asalem",
+      "radius": 950,
+      "centroid": {
+        "latitude": 37.73117,
+        "longitude": 48.95453
+      }
+    },
+    {
+      "name": "اسفراین",
+      "id": 794,
+      "slug": "esfarayen",
+      "radius": 4690,
+      "centroid": {
+        "latitude": 37.063538,
+        "longitude": 57.50791
+      }
+    },
+    {
+      "name": "اسلام\u200c\u200cآباد غرب",
+      "id": 819,
+      "slug": "eslamabad-gharb",
+      "radius": 4900,
+      "centroid": {
+        "latitude": 34.110306,
+        "longitude": 46.526028
+      }
+    },
+    {
+      "name": "اسلام\u200cشهر",
+      "id": 29,
+      "slug": "eslamshahr",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 35.538013,
+        "longitude": 51.236763
+      }
+    },
+    {
+      "name": "اشتهارد",
+      "id": 1721,
+      "slug": "eshtehard",
+      "radius": 2639,
+      "centroid": {
+        "latitude": 35.72189,
+        "longitude": 50.36788
+      }
+    },
+    {
+      "name": "اشنویه",
+      "id": 859,
+      "slug": "oshnavieh",
+      "radius": 1835,
+      "centroid": {
+        "latitude": 37.037086,
+        "longitude": 45.09847
+      }
+    },
+    {
+      "name": "اقبالیه",
+      "id": 1795,
+      "slug": "eqbaliyeh",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 36.230564,
+        "longitude": 49.92482
+      }
+    },
+    {
+      "name": "الشتر",
+      "id": 1816,
+      "slug": "aleshtar",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 33.86279,
+        "longitude": 48.26196
+      }
+    },
+    {
+      "name": "اقلید",
+      "id": 1728,
+      "slug": "eqlid",
+      "radius": 6710,
+      "centroid": {
+        "latitude": 30.897594,
+        "longitude": 52.69092
+      }
+    },
+    {
+      "name": "الوند",
+      "id": 872,
+      "slug": "alvand",
+      "radius": 1880,
+      "centroid": {
+        "latitude": 36.186848,
+        "longitude": 50.058636
+      }
+    },
+    {
+      "name": "الیگودرز",
+      "id": 830,
+      "slug": "aligudarz",
+      "radius": 4020,
+      "centroid": {
+        "latitude": 33.39677,
+        "longitude": 49.698986
+      }
+    },
+    {
+      "name": "املش",
+      "id": 1688,
+      "slug": "amlash",
+      "radius": 1780,
+      "centroid": {
+        "latitude": 37.09569,
+        "longitude": 50.18479
+      }
+    },
+    {
+      "name": "امیدیه",
+      "id": 1779,
+      "slug": "omidiyeh",
+      "radius": 5155,
+      "centroid": {
+        "latitude": 30.792076,
+        "longitude": 49.69417
+      }
+    },
+    {
+      "name": "امیرکلا",
+      "id": 1703,
+      "slug": "amirkala",
+      "radius": 1490,
+      "centroid": {
+        "latitude": 36.598938,
+        "longitude": 52.665886
+      }
+    },
+    {
+      "name": "اندیمشک",
+      "id": 796,
+      "slug": "andimeshk",
+      "radius": 5430,
+      "centroid": {
+        "latitude": 32.461273,
+        "longitude": 48.34196
+      }
+    },
+    {
+      "name": "اندیشه",
+      "id": 1764,
+      "slug": "andisheh-new-town",
+      "radius": 3500,
+      "centroid": {
+        "latitude": 35.68333,
+        "longitude": 51.01666
+      }
+    },
+    {
+      "name": "اهر",
+      "id": 759,
+      "slug": "ahar",
+      "radius": 4000,
+      "centroid": {
+        "latitude": 38.479786,
+        "longitude": 47.071163
+      }
+    },
+    {
+      "name": "ایذه",
+      "id": 797,
+      "slug": "izeh",
+      "radius": 3200,
+      "centroid": {
+        "latitude": 31.826155,
+        "longitude": 49.866783
+      }
+    },
+    {
+      "name": "ایرانشهر",
+      "id": 807,
+      "slug": "Iranshahr",
+      "radius": 7180,
+      "centroid": {
+        "latitude": 27.215057,
+        "longitude": 60.68575
+      }
+    },
+    {
+      "name": "ایزدشهر",
+      "id": 1701,
+      "slug": "izadshahr",
+      "radius": 773,
+      "centroid": {
+        "latitude": 36.594006,
+        "longitude": 52.127956
+      }
+    },
+    {
+      "name": "ایلام",
+      "id": 32,
+      "slug": "ilam",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 33.63669,
+        "longitude": 46.414482
+      }
+    },
+    {
+      "name": "ایوان",
+      "id": 776,
+      "slug": "eyvan",
+      "radius": 2480,
+      "centroid": {
+        "latitude": 33.828037,
+        "longitude": 46.308067
+      }
+    },
+    {
+      "name": "بابل",
+      "id": 664,
+      "slug": "babol",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 36.540527,
+        "longitude": 52.67958
+      }
+    },
+    {
+      "name": "بابلسر",
+      "id": 710,
+      "slug": "babolsar",
+      "radius": 7000,
+      "centroid": {
+        "latitude": 36.70077,
+        "longitude": 52.659985
+      }
+    },
+    {
+      "name": "بافت",
+      "id": 1804,
+      "slug": "baft",
+      "radius": 2900,
+      "centroid": {
+        "latitude": 29.234016,
+        "longitude": 56.605656
+      }
+    },
+    {
+      "name": "بافق",
+      "id": 1829,
+      "slug": "bafq",
+      "radius": 4400,
+      "centroid": {
+        "latitude": 31.599707,
+        "longitude": 55.39669
+      }
+    },
+    {
+      "name": "باقرشهر",
+      "id": 1707,
+      "slug": "baghershahr",
+      "radius": 1279,
+      "centroid": {
+        "latitude": 35.53221,
+        "longitude": 51.40576
+      }
+    },
+    {
+      "name": "بانه",
+      "id": 662,
+      "slug": "baneh",
+      "radius": 4000,
+      "centroid": {
+        "latitude": 35.994667,
+        "longitude": 45.887016
+      }
+    },
+    {
+      "name": "بجنورد",
+      "id": 39,
+      "slug": "bojnurd",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 37.479904,
+        "longitude": 57.324593
+      }
+    },
+    {
+      "name": "برازجان",
+      "id": 778,
+      "slug": "borazjan",
+      "radius": 4090,
+      "centroid": {
+        "latitude": 29.268408,
+        "longitude": 51.21755
+      }
+    },
+    {
+      "name": "بردسکن",
+      "id": 1735,
+      "slug": "bardaskan",
+      "radius": 3364,
+      "centroid": {
+        "latitude": 35.25958,
+        "longitude": 57.974037
+      }
+    },
+    {
+      "name": "بردسیر",
+      "id": 1805,
+      "slug": "bardsir",
+      "radius": 5850,
+      "centroid": {
+        "latitude": 29.928398,
+        "longitude": 56.57174
+      }
+    },
+    {
+      "name": "بروجرد",
+      "id": 26,
+      "slug": "borujerd",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 33.89676,
+        "longitude": 48.757004
+      }
+    },
+    {
+      "name": "بلوک",
+      "id": 1807,
+      "slug": "boluk",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 28.232769,
+        "longitude": 57.510742
+      }
+    },
+    {
+      "name": "بم",
+      "id": 815,
+      "slug": "bam",
+      "radius": 6100,
+      "centroid": {
+        "latitude": 29.102898,
+        "longitude": 58.3472
+      }
+    },
+    {
+      "name": "بروجن",
+      "id": 785,
+      "slug": "boroujen",
+      "radius": 6460,
+      "centroid": {
+        "latitude": 31.973633,
+        "longitude": 51.3008
+      }
+    },
+    {
+      "name": "بناب",
+      "id": 760,
+      "slug": "bonab",
+      "radius": 8000,
+      "centroid": {
+        "latitude": 37.342693,
+        "longitude": 46.059204
+      }
+    },
+    {
+      "name": "بندر امام خمینی",
+      "id": 798,
+      "slug": "bandar-Imam-khomeini",
+      "radius": 6435,
+      "centroid": {
+        "latitude": 30.46572,
+        "longitude": 49.079952
+      }
+    },
+    {
+      "name": "بندر انزلی",
+      "id": 708,
+      "slug": "bandar-anzali",
+      "radius": 20000,
+      "centroid": {
+        "latitude": 37.469254,
+        "longitude": 49.477436
+      }
+    },
+    {
+      "name": "بندر ترکمن",
+      "id": 751,
+      "slug": "bandar-torkaman",
+      "radius": 3470,
+      "centroid": {
+        "latitude": 36.90634,
+        "longitude": 54.07229
+      }
+    },
+    {
+      "name": "بندر دیر",
+      "id": 1756,
+      "slug": "dayyer",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 27.84124,
+        "longitude": 51.937214
+      }
+    },
+    {
+      "name": "بندر کنگان",
+      "id": 779,
+      "slug": "bandar-kangan",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 27.834257,
+        "longitude": 52.073414
+      }
+    },
+    {
+      "name": "بندر گناوه",
+      "id": 780,
+      "slug": "bandar-ganaveh",
+      "radius": 5420,
+      "centroid": {
+        "latitude": 29.58303,
+        "longitude": 50.514767
+      }
+    },
+    {
+      "name": "بندر ماهشهر",
+      "id": 37,
+      "slug": "mahshahr",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 30.559885,
+        "longitude": 49.179203
+      }
+    },
+    {
+      "name": "بندرعباس",
+      "id": 18,
+      "slug": "bandar-abbas",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 27.188486,
+        "longitude": 56.22356
+      }
+    },
+    {
+      "name": "بوشهر",
+      "id": 25,
+      "slug": "bushehr",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 28.894758,
+        "longitude": 50.90273
+      }
+    },
+    {
+      "name": "بومهن",
+      "id": 1768,
+      "slug": "bumehen",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.72852,
+        "longitude": 51.86431
+      }
+    },
+    {
+      "name": "بوکان",
+      "id": 765,
+      "slug": "bukan",
+      "radius": 5250,
+      "centroid": {
+        "latitude": 36.521793,
+        "longitude": 46.20791
+      }
+    },
+    {
+      "name": "بهار",
+      "id": 1828,
+      "slug": "bahar-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 34.90782,
+        "longitude": 48.43936
+      }
+    },
+    {
+      "name": "بهبهان",
+      "id": 314,
+      "slug": "behbahan",
+      "radius": 3000,
+      "centroid": {
+        "latitude": 30.593267,
+        "longitude": 50.238525
+      }
+    },
+    {
+      "name": "بهشهر",
+      "id": 832,
+      "slug": "behshahr",
+      "radius": 4630,
+      "centroid": {
+        "latitude": 36.692665,
+        "longitude": 53.538948
+      }
+    },
+    {
+      "name": "بیجار",
+      "id": 868,
+      "slug": "bijar",
+      "radius": 2500,
+      "centroid": {
+        "latitude": 35.87472,
+        "longitude": 47.599842
+      }
+    },
+    {
+      "name": "بیرجند",
+      "id": 34,
+      "slug": "birjand",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 32.87195,
+        "longitude": 59.240166
+      }
+    },
+    {
+      "name": "بیستون",
+      "id": 1801,
+      "slug": "bisotun",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 34.39957,
+        "longitude": 47.444836
+      }
+    },
+    {
+      "name": "پارس\u200cآباد",
+      "id": 771,
+      "slug": "parsabad",
+      "radius": 5560,
+      "centroid": {
+        "latitude": 39.627834,
+        "longitude": 47.90148
+      }
+    },
+    {
+      "name": "پاکدشت",
+      "id": 1760,
+      "slug": "pakdasht-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.47517,
+        "longitude": 51.6807
+      }
+    },
+    {
+      "name": "پردیس",
+      "id": 1767,
+      "slug": "pardis-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.73712,
+        "longitude": 51.817215
+      }
+    },
+    {
+      "name": "پرند",
+      "id": 1766,
+      "slug": "parand-city",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 35.477882,
+        "longitude": 50.94692
+      }
+    },
+    {
+      "name": "پل سفید",
+      "id": 1702,
+      "slug": "polsefid",
+      "radius": 4630,
+      "centroid": {
+        "latitude": 36.111862,
+        "longitude": 53.058716
+      }
+    },
+    {
+      "name": "پلدختر",
+      "id": 1817,
+      "slug": "pol-dokhtar",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 33.15242,
+        "longitude": 47.71175
+      }
+    },
+    {
+      "name": "پیرانشهر",
+      "id": 766,
+      "slug": "piranshahr",
+      "radius": 2700,
+      "centroid": {
+        "latitude": 36.69534,
+        "longitude": 45.144825
+      }
+    },
+    {
+      "name": "پیشوا",
+      "id": 781,
+      "slug": "pishva",
+      "radius": 3570,
+      "centroid": {
+        "latitude": 35.30681,
+        "longitude": 51.728138
+      }
+    },
+    {
+      "name": "تاکستان",
+      "id": 811,
+      "slug": "takestan",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 36.072216,
+        "longitude": 49.69402
+      }
+    },
+    {
+      "name": "تالش",
+      "id": 829,
+      "slug": "talesh",
+      "radius": 5350,
+      "centroid": {
+        "latitude": 37.802914,
+        "longitude": 48.906734
+      }
+    },
+    {
+      "name": "تایباد",
+      "id": 1729,
+      "slug": "taybad",
+      "radius": 3849,
+      "centroid": {
+        "latitude": 34.743862,
+        "longitude": 60.778206
+      }
+    },
+    {
+      "name": "تخت",
+      "id": 1822,
+      "slug": "takht",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 27.501247,
+        "longitude": 56.636158
+      }
+    },
+    {
+      "name": "تربت جام",
+      "id": 791,
+      "slug": "torbat-jam",
+      "radius": 5250,
+      "centroid": {
+        "latitude": 35.23555,
+        "longitude": 60.628197
+      }
+    },
+    {
+      "name": "تربت\u200cحیدریه",
+      "id": 1776,
+      "slug": "torbat-heydariyeh",
+      "radius": 4150,
+      "centroid": {
+        "latitude": 35.274086,
+        "longitude": 59.219448
+      }
+    },
+    {
+      "name": "تفت",
+      "id": 1831,
+      "slug": "taft",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 31.752048,
+        "longitude": 54.217422
+      }
+    },
+    {
+      "name": "تنکابن",
+      "id": 833,
+      "slug": "tonekabon",
+      "radius": 6085,
+      "centroid": {
+        "latitude": 36.812695,
+        "longitude": 50.875507
+      }
+    },
+    {
+      "name": "تنکمان",
+      "id": 1739,
+      "slug": "tankaman",
+      "radius": 1033,
+      "centroid": {
+        "latitude": 35.891724,
+        "longitude": 50.616695
+      }
+    },
+    {
+      "name": "تویسرکان",
+      "id": 866,
+      "slug": "tuyserkan",
+      "radius": 3450,
+      "centroid": {
+        "latitude": 34.54873,
+        "longitude": 48.451065
+      }
+    },
+    {
+      "name": "جم",
+      "id": 1757,
+      "slug": "jam",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 27.82628,
+        "longitude": 52.32636
+      }
+    },
+    {
+      "name": "جوادآباد",
+      "id": 1718,
+      "slug": "javadabad",
+      "radius": 1103,
+      "centroid": {
+        "latitude": 35.21277,
+        "longitude": 51.671837
+      }
+    },
+    {
+      "name": "جوانرود",
+      "id": 820,
+      "slug": "javanrud",
+      "radius": 1740,
+      "centroid": {
+        "latitude": 34.805958,
+        "longitude": 46.49457
+      }
+    },
+    {
+      "name": "جویبار",
+      "id": 834,
+      "slug": "juybar",
+      "radius": 2900,
+      "centroid": {
+        "latitude": 36.642315,
+        "longitude": 52.90417
+      }
+    },
+    {
+      "name": "جهرم",
+      "id": 808,
+      "slug": "jahrom",
+      "radius": 8980,
+      "centroid": {
+        "latitude": 28.518656,
+        "longitude": 53.582703
+      }
+    },
+    {
+      "name": "جیرفت",
+      "id": 816,
+      "slug": "jiroft",
+      "radius": 9660,
+      "centroid": {
+        "latitude": 28.686445,
+        "longitude": 57.72085
+      }
+    },
+    {
+      "name": "چابکسر",
+      "id": 864,
+      "slug": "chaboksar",
+      "radius": 1960,
+      "centroid": {
+        "latitude": 36.97469,
+        "longitude": 50.56205
+      }
+    },
+    {
+      "name": "چابهار",
+      "id": 747,
+      "slug": "chabahar",
+      "radius": 64900,
+      "centroid": {
+        "latitude": 25.303268,
+        "longitude": 60.646236
+      }
+    },
+    {
+      "name": "چالوس",
+      "id": 835,
+      "slug": "chalus",
+      "radius": 3260,
+      "centroid": {
+        "latitude": 36.658092,
+        "longitude": 51.420853
+      }
+    },
+    {
+      "name": "چاف و چمخاله",
+      "id": 1686,
+      "slug": "chaf-chamkhale",
+      "radius": 2285,
+      "centroid": {
+        "latitude": 37.229443,
+        "longitude": 50.253887
+      }
+    },
+    {
+      "name": "چمران",
+      "id": 1782,
+      "slug": "chamran-town",
+      "radius": 5850,
+      "centroid": {
+        "latitude": 30.707972,
+        "longitude": 49.16352
+      }
+    },
+    {
+      "name": "چمستان",
+      "id": 1694,
+      "slug": "chamestan",
+      "radius": 983,
+      "centroid": {
+        "latitude": 36.48342,
+        "longitude": 52.12138
+      }
+    },
+    {
+      "name": "چناران",
+      "id": 1732,
+      "slug": "chenaran",
+      "radius": 2552,
+      "centroid": {
+        "latitude": 36.642967,
+        "longitude": 59.119015
+      }
+    },
+    {
+      "name": "چهارباغ",
+      "id": 1740,
+      "slug": "charbagh-alborz",
+      "radius": 1038,
+      "centroid": {
+        "latitude": 35.839554,
+        "longitude": 50.850216
+      }
+    },
+    {
+      "name": "چهاردانگه",
+      "id": 782,
+      "slug": "chahar-dangeh",
+      "radius": 4290,
+      "centroid": {
+        "latitude": 35.598732,
+        "longitude": 51.314415
+      }
+    },
+    {
+      "name": "حمیدیا",
+      "id": 871,
+      "slug": "hamidia",
+      "radius": 2110,
+      "centroid": {
+        "latitude": 31.828205,
+        "longitude": 54.395912
+      }
+    },
+    {
+      "name": "حمیدیه",
+      "id": 1784,
+      "slug": "hamidiyeh",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 31.480822,
+        "longitude": 48.43538
+      }
+    },
+    {
+      "name": "خاش",
+      "id": 1785,
+      "slug": "khash",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 28.22039,
+        "longitude": 61.213707
+      }
+    },
+    {
+      "name": "خرم\u200cآباد",
+      "id": 27,
+      "slug": "khorramabad",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 33.476715,
+        "longitude": 48.348457
+      }
+    },
+    {
+      "name": "خرمدره",
+      "id": 803,
+      "slug": "khorramdarreh",
+      "radius": 3440,
+      "centroid": {
+        "latitude": 36.20894,
+        "longitude": 49.196438
+      }
+    },
+    {
+      "name": "خرمشهر",
+      "id": 799,
+      "slug": "khorramshahr",
+      "radius": 8310,
+      "centroid": {
+        "latitude": 30.42547,
+        "longitude": 48.187717
+      }
+    },
+    {
+      "name": "خشکبیجار",
+      "id": 1689,
+      "slug": "khoshkbijar",
+      "radius": 1890,
+      "centroid": {
+        "latitude": 37.37302,
+        "longitude": 49.75766
+      }
+    },
+    {
+      "name": "خلخال",
+      "id": 772,
+      "slug": "khalkhal",
+      "radius": 5400,
+      "centroid": {
+        "latitude": 37.619774,
+        "longitude": 48.53143
+      }
+    },
+    {
+      "name": "خمام",
+      "id": 1809,
+      "slug": "khomam",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 37.39049,
+        "longitude": 49.660748
+      }
+    },
+    {
+      "name": "خمین",
+      "id": 839,
+      "slug": "khomein",
+      "radius": 5500,
+      "centroid": {
+        "latitude": 33.63772,
+        "longitude": 50.069836
+      }
+    },
+    {
+      "name": "خمینی\u200cشهر",
+      "id": 1747,
+      "slug": "khomeyni-shahr",
+      "radius": 7600,
+      "centroid": {
+        "latitude": 32.69382,
+        "longitude": 51.52549
+      }
+    },
+    {
+      "name": "خواف",
+      "id": 1736,
+      "slug": "khaf",
+      "radius": 3737,
+      "centroid": {
+        "latitude": 34.573875,
+        "longitude": 60.14224
+      }
+    },
+    {
+      "name": "خوانسار",
+      "id": 1727,
+      "slug": "khansar",
+      "radius": 7191,
+      "centroid": {
+        "latitude": 33.26682,
+        "longitude": 50.3171
+      }
+    },
+    {
+      "name": "خور",
+      "id": 1793,
+      "slug": "khoour",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 32.82273,
+        "longitude": 74.51162
+      }
+    },
+    {
+      "name": "خور",
+      "id": 1750,
+      "slug": "khour",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 33.67417,
+        "longitude": 55.02241
+      }
+    },
+    {
+      "name": "خورموج",
+      "id": 1755,
+      "slug": "khormoj",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 28.65431,
+        "longitude": 51.375885
+      }
+    },
+    {
+      "name": "خوی",
+      "id": 767,
+      "slug": "khoy",
+      "radius": 4400,
+      "centroid": {
+        "latitude": 38.549664,
+        "longitude": 44.952152
+      }
+    },
+    {
+      "name": "داراب",
+      "id": 809,
+      "slug": "darab",
+      "radius": 4670,
+      "centroid": {
+        "latitude": 28.751759,
+        "longitude": 54.547695
+      }
+    },
+    {
+      "name": "داران",
+      "id": 1724,
+      "slug": "daran",
+      "radius": 2430,
+      "centroid": {
+        "latitude": 32.985775,
+        "longitude": 50.409534
+      }
+    },
+    {
+      "name": "دامغان",
+      "id": 805,
+      "slug": "damghan",
+      "radius": 3800,
+      "centroid": {
+        "latitude": 36.16486,
+        "longitude": 54.342262
+      }
+    },
+    {
+      "name": "درگهان",
+      "id": 1820,
+      "slug": "dargahan",
+      "radius": 850,
+      "centroid": {
+        "latitude": 26.967455,
+        "longitude": 56.077812
+      }
+    },
+    {
+      "name": "دزفول",
+      "id": 23,
+      "slug": "dezful",
+      "radius": 8000,
+      "centroid": {
+        "latitude": 32.396294,
+        "longitude": 48.395267
+      }
+    },
+    {
+      "name": "دلیجان",
+      "id": 1824,
+      "slug": "delijan",
+      "radius": 2050,
+      "centroid": {
+        "latitude": 33.98805,
+        "longitude": 50.68629
+      }
+    },
+    {
+      "name": "دماوند",
+      "id": 783,
+      "slug": "damavand",
+      "radius": 5290,
+      "centroid": {
+        "latitude": 35.703564,
+        "longitude": 52.048042
+      }
+    },
+    {
+      "name": "دورود",
+      "id": 752,
+      "slug": "dorud",
+      "radius": 3270,
+      "centroid": {
+        "latitude": 33.494804,
+        "longitude": 49.062233
+      }
+    },
+    {
+      "name": "دوگنبدان",
+      "id": 874,
+      "slug": "dogonbadan",
+      "radius": 8090,
+      "centroid": {
+        "latitude": 30.357033,
+        "longitude": 50.796616
+      }
+    },
+    {
+      "name": "دهدشت",
+      "id": 822,
+      "slug": "dehdasht",
+      "radius": 6040,
+      "centroid": {
+        "latitude": 30.7888,
+        "longitude": 50.57921
+      }
+    },
+    {
+      "name": "دهگلان",
+      "id": 1798,
+      "slug": "dehgolan",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.28004,
+        "longitude": 47.418987
+      }
+    },
+    {
+      "name": "دهلران",
+      "id": 777,
+      "slug": "dehloran",
+      "radius": 2650,
+      "centroid": {
+        "latitude": 32.691166,
+        "longitude": 47.269024
+      }
+    },
+    {
+      "name": "دیلمان",
+      "id": 1814,
+      "slug": "deylaman",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 36.88849,
+        "longitude": 49.906746
+      }
+    },
+    {
+      "name": "رامسر",
+      "id": 745,
+      "slug": "ramsar",
+      "radius": 5560,
+      "centroid": {
+        "latitude": 36.924072,
+        "longitude": 50.642384
+      }
+    },
+    {
+      "name": "رامشیر",
+      "id": 1781,
+      "slug": "ramshir",
+      "radius": 5850,
+      "centroid": {
+        "latitude": 30.893951,
+        "longitude": 49.40935
+      }
+    },
+    {
+      "name": "رامهرمز",
+      "id": 800,
+      "slug": "ramhormoz",
+      "radius": 3630,
+      "centroid": {
+        "latitude": 31.27535,
+        "longitude": 49.610558
+      }
+    },
+    {
+      "name": "رباط\u200cکریم",
+      "id": 1765,
+      "slug": "robat-karim",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 35.485073,
+        "longitude": 51.08418
+      }
+    },
+    {
+      "name": "رضوانشهر",
+      "id": 1684,
+      "slug": "rezvanshahr",
+      "radius": 3640,
+      "centroid": {
+        "latitude": 37.56,
+        "longitude": 49.15
+      }
+    },
+    {
+      "name": "رفسنجان",
+      "id": 817,
+      "slug": "rafsanjan",
+      "radius": 11630,
+      "centroid": {
+        "latitude": 30.361021,
+        "longitude": 55.991436
+      }
+    },
+    {
+      "name": "رودبار",
+      "id": 1810,
+      "slug": "rudbar",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 36.821907,
+        "longitude": 49.426826
+      }
+    },
+    {
+      "name": "رودسر",
+      "id": 826,
+      "slug": "rudsar",
+      "radius": 4270,
+      "centroid": {
+        "latitude": 37.137886,
+        "longitude": 50.299564
+      }
+    },
+    {
+      "name": "رودهن",
+      "id": 1769,
+      "slug": "rudehen",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.73477,
+        "longitude": 51.90638
+      }
+    },
+    {
+      "name": "رویان",
+      "id": 1698,
+      "slug": "royan",
+      "radius": 1256,
+      "centroid": {
+        "latitude": 36.567326,
+        "longitude": 51.96853
+      }
+    },
+    {
+      "name": "ری",
+      "id": 1763,
+      "slug": "shahre-rey",
+      "radius": 4650,
+      "centroid": {
+        "latitude": 35.59899,
+        "longitude": 51.435787
+      }
+    },
+    {
+      "name": "زابل",
+      "id": 706,
+      "slug": "zabol",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 31.040257,
+        "longitude": 61.500496
+      }
+    },
+    {
+      "name": "زاهدان",
+      "id": 11,
+      "slug": "zahedan",
+      "radius": 18000,
+      "centroid": {
+        "latitude": 29.470049,
+        "longitude": 60.86604
+      }
+    },
+    {
+      "name": "زرقان",
+      "id": 1791,
+      "slug": "zarghan",
+      "radius": 1500,
+      "centroid": {
+        "latitude": 29.77885,
+        "longitude": 52.71851
+      }
+    },
+    {
+      "name": "زرند",
+      "id": 867,
+      "slug": "zarand",
+      "radius": 5450,
+      "centroid": {
+        "latitude": 30.810305,
+        "longitude": 56.578514
+      }
+    },
+    {
+      "name": "زنجان",
+      "id": 20,
+      "slug": "zanjan",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 36.67692,
+        "longitude": 48.502293
+      }
+    },
+    {
+      "name": "زهک",
+      "id": 1787,
+      "slug": "zahak",
+      "radius": 2535,
+      "centroid": {
+        "latitude": 30.809067,
+        "longitude": 61.636322
+      }
+    },
+    {
+      "name": "زیباکنار",
+      "id": 1683,
+      "slug": "zibakenar",
+      "radius": 1410,
+      "centroid": {
+        "latitude": 37.416744,
+        "longitude": 49.87
+      }
+    },
+    {
+      "name": "ساری",
+      "id": 22,
+      "slug": "sari",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 36.561245,
+        "longitude": 53.062508
+      }
+    },
+    {
+      "name": "سامان",
+      "id": 1833,
+      "slug": "saman-city",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 34.209015,
+        "longitude": 48.70456
+      }
+    },
+    {
+      "name": "ساوه",
+      "id": 671,
+      "slug": "saveh",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 35.025944,
+        "longitude": 50.364273
+      }
+    },
+    {
+      "name": "سبزوار",
+      "id": 316,
+      "slug": "sabzevar",
+      "radius": 9000,
+      "centroid": {
+        "latitude": 36.21749,
+        "longitude": 57.65594
+      }
+    },
+    {
+      "name": "سراب",
+      "id": 852,
+      "slug": "sarab",
+      "radius": 2500,
+      "centroid": {
+        "latitude": 37.940243,
+        "longitude": 47.532413
+      }
+    },
+    {
+      "name": "سراوان-سیستان و بلوچستان",
+      "id": 865,
+      "slug": "saravan",
+      "radius": 8300,
+      "centroid": {
+        "latitude": 27.346884,
+        "longitude": 62.35219
+      }
+    },
+    {
+      "name": "سرپل ذهاب",
+      "id": 854,
+      "slug": "sarpol-zahab",
+      "radius": 2500,
+      "centroid": {
+        "latitude": 34.45784,
+        "longitude": 45.859917
+      }
+    },
+    {
+      "name": "سرخرود",
+      "id": 1700,
+      "slug": "sorkhrood",
+      "radius": 1544,
+      "centroid": {
+        "latitude": 36.479664,
+        "longitude": 52.120438
+      }
+    },
+    {
+      "name": "سردشت",
+      "id": 857,
+      "slug": "sardasht",
+      "radius": 2700,
+      "centroid": {
+        "latitude": 36.15822,
+        "longitude": 45.47813
+      }
+    },
+    {
+      "name": "سرعین",
+      "id": 1741,
+      "slug": "sarein",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 38.149376,
+        "longitude": 48.07462
+      }
+    },
+    {
+      "name": "سقز",
+      "id": 812,
+      "slug": "saqqez",
+      "radius": 3450,
+      "centroid": {
+        "latitude": 36.23966,
+        "longitude": 46.27641
+      }
+    },
+    {
+      "name": "سلماس",
+      "id": 768,
+      "slug": "salmas",
+      "radius": 3320,
+      "centroid": {
+        "latitude": 38.199913,
+        "longitude": 44.768105
+      }
+    },
+    {
+      "name": "سلمان\u200cشهر",
+      "id": 1699,
+      "slug": "salman-shahr",
+      "radius": 1587,
+      "centroid": {
+        "latitude": 36.6947,
+        "longitude": 51.1955
+      }
+    },
+    {
+      "name": "سمنان",
+      "id": 35,
+      "slug": "semnan",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 35.57904,
+        "longitude": 53.387352
+      }
+    },
+    {
+      "name": "سمیرم",
+      "id": 1725,
+      "slug": "semirom",
+      "radius": 5696,
+      "centroid": {
+        "latitude": 31.396917,
+        "longitude": 51.575382
+      }
+    },
+    {
+      "name": "سنگر",
+      "id": 1811,
+      "slug": "sangar",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 37.179787,
+        "longitude": 49.694775
+      }
+    },
+    {
+      "name": "سنقر",
+      "id": 855,
+      "slug": "sonqor",
+      "radius": 3900,
+      "centroid": {
+        "latitude": 34.776276,
+        "longitude": 47.599926
+      }
+    },
+    {
+      "name": "سنندج",
+      "id": 28,
+      "slug": "sanandaj",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 35.294468,
+        "longitude": 47.00832
+      }
+    },
+    {
+      "name": "سوسنگرد",
+      "id": 756,
+      "slug": "susangerd",
+      "radius": 2420,
+      "centroid": {
+        "latitude": 31.556074,
+        "longitude": 48.18439
+      }
+    },
+    {
+      "name": "سهند",
+      "id": 761,
+      "slug": "sahand",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 37.943188,
+        "longitude": 46.13413
+      }
+    },
+    {
+      "name": "سیاهکل",
+      "id": 861,
+      "slug": "siahkal",
+      "radius": 3300,
+      "centroid": {
+        "latitude": 37.15278,
+        "longitude": 49.876785
+      }
+    },
+    {
+      "name": "سیرجان",
+      "id": 818,
+      "slug": "sirjan",
+      "radius": 12000,
+      "centroid": {
+        "latitude": 29.481913,
+        "longitude": 55.669006
+      }
+    },
+    {
+      "name": "سی\u200cسخت",
+      "id": 1808,
+      "slug": "sisakht",
+      "radius": 5850,
+      "centroid": {
+        "latitude": 30.863066,
+        "longitude": 51.455708
+      }
+    },
+    {
+      "name": "شادگان",
+      "id": 1780,
+      "slug": "shadeghan",
+      "radius": 3200,
+      "centroid": {
+        "latitude": 30.649252,
+        "longitude": 48.66903
+      }
+    },
+    {
+      "name": "شازند",
+      "id": 1825,
+      "slug": "shazand",
+      "radius": 2750,
+      "centroid": {
+        "latitude": 33.929314,
+        "longitude": 49.407005
+      }
+    },
+    {
+      "name": "شال",
+      "id": 1796,
+      "slug": "shal",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.898037,
+        "longitude": 49.770096
+      }
+    },
+    {
+      "name": "شاندیز",
+      "id": 1775,
+      "slug": "shandiz-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 36.395885,
+        "longitude": 59.2986
+      }
+    },
+    {
+      "name": "شاهدشهر",
+      "id": 1713,
+      "slug": "shahedshahr",
+      "radius": 912,
+      "centroid": {
+        "latitude": 35.57231,
+        "longitude": 51.087868
+      }
+    },
+    {
+      "name": "شاهرود",
+      "id": 707,
+      "slug": "shahrud",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 36.412704,
+        "longitude": 55.005184
+      }
+    },
+    {
+      "name": "شاهین دژ",
+      "id": 858,
+      "slug": "shahin-dej",
+      "radius": 3000,
+      "centroid": {
+        "latitude": 36.678875,
+        "longitude": 46.567307
+      }
+    },
+    {
+      "name": "شاهین\u200cشهر",
+      "id": 1744,
+      "slug": "shahin-shahr",
+      "radius": 5250,
+      "centroid": {
+        "latitude": 32.855618,
+        "longitude": 51.558376
+      }
+    },
+    {
+      "name": "شفت",
+      "id": 1813,
+      "slug": "shaft",
+      "radius": 1550,
+      "centroid": {
+        "latitude": 37.170357,
+        "longitude": 49.40278
+      }
+    },
+    {
+      "name": "شمشک",
+      "id": 1717,
+      "slug": "shemshak",
+      "radius": 4289,
+      "centroid": {
+        "latitude": 36.016388,
+        "longitude": 51.48209
+      }
+    },
+    {
+      "name": "شوش",
+      "id": 754,
+      "slug": "shush",
+      "radius": 3010,
+      "centroid": {
+        "latitude": 32.194553,
+        "longitude": 48.258675
+      }
+    },
+    {
+      "name": "شوشتر",
+      "id": 602,
+      "slug": "shushtar",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 32.046917,
+        "longitude": 48.83769
+      }
+    },
+    {
+      "name": "شهرکرد",
+      "id": 36,
+      "slug": "shahrekord",
+      "radius": 7000,
+      "centroid": {
+        "latitude": 32.33338,
+        "longitude": 50.871063
+      }
+    },
+    {
+      "name": "شهریار",
+      "id": 1759,
+      "slug": "shahriar-city",
+      "radius": 5250,
+      "centroid": {
+        "latitude": 35.6589,
+        "longitude": 51.0586
+      }
+    },
+    {
+      "name": "شیروان",
+      "id": 795,
+      "slug": "shirvan",
+      "radius": 3450,
+      "centroid": {
+        "latitude": 37.406025,
+        "longitude": 57.932575
+      }
+    },
+    {
+      "name": "صباشهر",
+      "id": 1712,
+      "slug": "sabashahr",
+      "radius": 4975,
+      "centroid": {
+        "latitude": 35.58619,
+        "longitude": 51.11577
+      }
+    },
+    {
+      "name": "صحنه",
+      "id": 1800,
+      "slug": "sahneh",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 34.481213,
+        "longitude": 47.693592
+      }
+    },
+    {
+      "name": "صدرا-فارس",
+      "id": 810,
+      "slug": "sadra",
+      "radius": 8850,
+      "centroid": {
+        "latitude": 29.79413,
+        "longitude": 52.499115
+      }
+    },
+    {
+      "name": "صفادشت",
+      "id": 1710,
+      "slug": "safadasht-industrial-city",
+      "radius": 1941,
+      "centroid": {
+        "latitude": 35.678078,
+        "longitude": 50.818195
+      }
+    },
+    {
+      "name": "صومعه\u200cسرا",
+      "id": 827,
+      "slug": "someh-sara",
+      "radius": 2100,
+      "centroid": {
+        "latitude": 37.304672,
+        "longitude": 49.318516
+      }
+    },
+    {
+      "name": "طالقان",
+      "id": 850,
+      "slug": "taleqan",
+      "radius": 33735,
+      "centroid": {
+        "latitude": 36.19529,
+        "longitude": 50.68096
+      }
+    },
+    {
+      "name": "طبس",
+      "id": 788,
+      "slug": "tabas",
+      "radius": 5570,
+      "centroid": {
+        "latitude": 33.609398,
+        "longitude": 56.939278
+      }
+    },
+    {
+      "name": "طرقبه",
+      "id": 1774,
+      "slug": "torghabeh-city",
+      "radius": 1700,
+      "centroid": {
+        "latitude": 36.314953,
+        "longitude": 59.374447
+      }
+    },
+    {
+      "name": "عباس\u200cآباد",
+      "id": 1697,
+      "slug": "abbasabad-mazandaran",
+      "radius": 3360,
+      "centroid": {
+        "latitude": 36.72293,
+        "longitude": 51.10717
+      }
+    },
+    {
+      "name": "علی\u200cآباد کتول",
+      "id": 823,
+      "slug": "aliabad-katul",
+      "radius": 2930,
+      "centroid": {
+        "latitude": 36.903435,
+        "longitude": 54.856083
+      }
+    },
+    {
+      "name": "فرح آباد",
+      "id": 1819,
+      "slug": "farahabad",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 36.789642,
+        "longitude": 53.110786
+      }
+    },
+    {
+      "name": "فرخ\u200cشهر",
+      "id": 786,
+      "slug": "farrokhshahr",
+      "radius": 4310,
+      "centroid": {
+        "latitude": 32.270927,
+        "longitude": 50.97159
+      }
+    },
+    {
+      "name": "فردوس",
+      "id": 789,
+      "slug": "ferdows",
+      "radius": 3120,
+      "centroid": {
+        "latitude": 34.019,
+        "longitude": 58.172134
+      }
+    },
+    {
+      "name": "فردوسیه",
+      "id": 1716,
+      "slug": "ferdosiye",
+      "radius": 3654,
+      "centroid": {
+        "latitude": 35.597927,
+        "longitude": 51.05822
+      }
+    },
+    {
+      "name": "فردیس",
+      "id": 1751,
+      "slug": "fardis-city",
+      "radius": 2500,
+      "centroid": {
+        "latitude": 35.7223,
+        "longitude": 50.9758
+      }
+    },
+    {
+      "name": "فریدون\u200cکنار",
+      "id": 836,
+      "slug": "fereydunkenar",
+      "radius": 3440,
+      "centroid": {
+        "latitude": 36.683365,
+        "longitude": 52.527218
+      }
+    },
+    {
+      "name": "فسا",
+      "id": 1789,
+      "slug": "fasa-city",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 28.93664,
+        "longitude": 53.651066
+      }
+    },
+    {
+      "name": "فشم",
+      "id": 1772,
+      "slug": "fasham-city",
+      "radius": 2850,
+      "centroid": {
+        "latitude": 35.92936,
+        "longitude": 51.52719
+      }
+    },
+    {
+      "name": "فلاورجان",
+      "id": 849,
+      "slug": "falavarjan",
+      "radius": 1945,
+      "centroid": {
+        "latitude": 32.554752,
+        "longitude": 51.50685
+      }
+    },
+    {
+      "name": "فولادشهر",
+      "id": 1745,
+      "slug": "foolad-shahr",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 32.487823,
+        "longitude": 51.403214
+      }
+    },
+    {
+      "name": "فومن",
+      "id": 860,
+      "slug": "fuman",
+      "radius": 2750,
+      "centroid": {
+        "latitude": 37.227806,
+        "longitude": 49.31341
+      }
+    },
+    {
+      "name": "فیروزآباد",
+      "id": 1734,
+      "slug": "firuzabad",
+      "radius": 3629,
+      "centroid": {
+        "latitude": 28.846992,
+        "longitude": 52.573185
+      }
+    },
+    {
+      "name": "فیروزکوه",
+      "id": 1770,
+      "slug": "firuzkooh",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.755672,
+        "longitude": 52.77306
+      }
+    },
+    {
+      "name": "قائم\u200cشهر",
+      "id": 665,
+      "slug": "qaem-shahr",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 36.464767,
+        "longitude": 52.861168
+      }
+    },
+    {
+      "name": "قاسم\u200cآباد (خواف)",
+      "id": 1733,
+      "slug": "qasemabad-khaf",
+      "radius": 2320,
+      "centroid": {
+        "latitude": 34.36534,
+        "longitude": 59.870625
+      }
+    },
+    {
+      "name": "قاين",
+      "id": 790,
+      "slug": "ghayen",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 33.736492,
+        "longitude": 59.18651
+      }
+    },
+    {
+      "name": "قدس",
+      "id": 1758,
+      "slug": "qods-city",
+      "radius": 4450,
+      "centroid": {
+        "latitude": 35.72043,
+        "longitude": 51.110077
+      }
+    },
+    {
+      "name": "قرچک",
+      "id": 1761,
+      "slug": "qarchak-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.44218,
+        "longitude": 51.569702
+      }
+    },
+    {
+      "name": "قروه",
+      "id": 813,
+      "slug": "qorveh",
+      "radius": 2800,
+      "centroid": {
+        "latitude": 35.165947,
+        "longitude": 47.80515
+      }
+    },
+    {
+      "name": "قزوین",
+      "id": 19,
+      "slug": "qazvin",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 36.275105,
+        "longitude": 50.009815
+      }
+    },
+    {
+      "name": "قشم",
+      "id": 660,
+      "slug": "qeshm",
+      "radius": 60000,
+      "centroid": {
+        "latitude": 26.784285,
+        "longitude": 55.81223
+      }
+    },
+    {
+      "name": "قمصر",
+      "id": 1746,
+      "slug": "ghamsar",
+      "radius": 3250,
+      "centroid": {
+        "latitude": 33.75086,
+        "longitude": 51.4291
+      }
+    },
+    {
+      "name": "قوچان",
+      "id": 1777,
+      "slug": "quchan",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 37.10599,
+        "longitude": 58.510807
+      }
+    },
+    {
+      "name": "قیدار",
+      "id": 804,
+      "slug": "qeydar",
+      "radius": 2930,
+      "centroid": {
+        "latitude": 36.12102,
+        "longitude": 48.59033
+      }
+    },
+    {
+      "name": "کازرون",
+      "id": 1790,
+      "slug": "kazeroon",
+      "radius": 4200,
+      "centroid": {
+        "latitude": 29.620325,
+        "longitude": 51.652084
+      }
+    },
+    {
+      "name": "کاشان",
+      "id": 30,
+      "slug": "kashan",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 33.985386,
+        "longitude": 51.406944
+      }
+    },
+    {
+      "name": "کامیاران",
+      "id": 1797,
+      "slug": "kamyaran",
+      "radius": 38300,
+      "centroid": {
+        "latitude": 34.94519,
+        "longitude": 46.857944
+      }
+    },
+    {
+      "name": "کبودراهنگ",
+      "id": 1827,
+      "slug": "kabudrahang",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.208366,
+        "longitude": 48.724205
+      }
+    },
+    {
+      "name": "کردکوی",
+      "id": 750,
+      "slug": "Kordkuy",
+      "radius": 2130,
+      "centroid": {
+        "latitude": 36.79084,
+        "longitude": 54.110027
+      }
+    },
+    {
+      "name": "کرمان",
+      "id": 13,
+      "slug": "kerman",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 30.27619,
+        "longitude": 57.05553
+      }
+    },
+    {
+      "name": "کلاچای",
+      "id": 863,
+      "slug": "kelachay",
+      "radius": 2530,
+      "centroid": {
+        "latitude": 37.07608,
+        "longitude": 50.397694
+      }
+    },
+    {
+      "name": "کلارآباد",
+      "id": 1695,
+      "slug": "kelarabad",
+      "radius": 2003,
+      "centroid": {
+        "latitude": 36.68756,
+        "longitude": 51.24713
+      }
+    },
+    {
+      "name": "کلاردشت",
+      "id": 1696,
+      "slug": "kelarestan",
+      "radius": 6009,
+      "centroid": {
+        "latitude": 36.49605,
+        "longitude": 51.153343
+      }
+    },
+    {
+      "name": "کلاله",
+      "id": 1692,
+      "slug": "kalale",
+      "radius": 2690,
+      "centroid": {
+        "latitude": 37.37935,
+        "longitude": 55.49292
+      }
+    },
+    {
+      "name": "کنارک",
+      "id": 1786,
+      "slug": "konarak",
+      "radius": 1900,
+      "centroid": {
+        "latitude": 25.360487,
+        "longitude": 60.398117
+      }
+    },
+    {
+      "name": "کنگاور",
+      "id": 821,
+      "slug": "kangavar",
+      "radius": 3000,
+      "centroid": {
+        "latitude": 34.503487,
+        "longitude": 47.958588
+      }
+    },
+    {
+      "name": "کوهدشت",
+      "id": 831,
+      "slug": "kuhdasht",
+      "radius": 2400,
+      "centroid": {
+        "latitude": 33.530502,
+        "longitude": 47.609985
+      }
+    },
+    {
+      "name": "کوهسار",
+      "id": 1738,
+      "slug": "koohsar",
+      "radius": 1714,
+      "centroid": {
+        "latitude": 35.96017,
+        "longitude": 50.792908
+      }
+    },
+    {
+      "name": "کهریزک",
+      "id": 1708,
+      "slug": "kahrizak",
+      "radius": 2286,
+      "centroid": {
+        "latitude": 35.517925,
+        "longitude": 51.360626
+      }
+    },
+    {
+      "name": "کهنوج",
+      "id": 1803,
+      "slug": "kahnooj",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 27.950226,
+        "longitude": 57.702576
+      }
+    },
+    {
+      "name": "کیاشهر",
+      "id": 1687,
+      "slug": "kiashahr",
+      "radius": 2158,
+      "centroid": {
+        "latitude": 37.416744,
+        "longitude": 49.894234
+      }
+    },
+    {
+      "name": "کیش",
+      "id": 33,
+      "slug": "kish",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 26.534016,
+        "longitude": 53.974907
+      }
+    },
+    {
+      "name": "گالیکش",
+      "id": 1832,
+      "slug": "galikesh",
+      "radius": 1400,
+      "centroid": {
+        "latitude": 32.452934,
+        "longitude": 50.910423
+      }
+    },
+    {
+      "name": "کیلان",
+      "id": 1719,
+      "slug": "kilan",
+      "radius": 6528,
+      "centroid": {
+        "latitude": 35.55402,
+        "longitude": 52.153812
+      }
+    },
+    {
+      "name": "گرگان",
+      "id": 21,
+      "slug": "gorgan",
+      "radius": 8000,
+      "centroid": {
+        "latitude": 36.855213,
+        "longitude": 54.452137
+      }
+    },
+    {
+      "name": "گرمدره",
+      "id": 1720,
+      "slug": "garmdareh",
+      "radius": 3427,
+      "centroid": {
+        "latitude": 35.75384,
+        "longitude": 51.06327
+      }
+    },
+    {
+      "name": "گرمسار",
+      "id": 806,
+      "slug": "garmsar",
+      "radius": 4770,
+      "centroid": {
+        "latitude": 35.20643,
+        "longitude": 52.336246
+      }
+    },
+    {
+      "name": "گرمی",
+      "id": 1743,
+      "slug": "germi",
+      "radius": 5600,
+      "centroid": {
+        "latitude": 39.028862,
+        "longitude": 48.08053
+      }
+    },
+    {
+      "name": "گلبهار",
+      "id": 1773,
+      "slug": "golbahar-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 36.572548,
+        "longitude": 59.196625
+      }
+    },
+    {
+      "name": "گلپایگان",
+      "id": 848,
+      "slug": "golpayegan",
+      "radius": 3800,
+      "centroid": {
+        "latitude": 33.456615,
+        "longitude": 50.276993
+      }
+    },
+    {
+      "name": "گلستان",
+      "id": 1706,
+      "slug": "golestan-baharestan",
+      "radius": 2968,
+      "centroid": {
+        "latitude": 35.51121,
+        "longitude": 51.169884
+      }
+    },
+    {
+      "name": "گمیشان",
+      "id": 749,
+      "slug": "gomishan",
+      "radius": 1300,
+      "centroid": {
+        "latitude": 37.07294,
+        "longitude": 54.073483
+      }
+    },
+    {
+      "name": "گناباد",
+      "id": 847,
+      "slug": "gonabad",
+      "radius": 5230,
+      "centroid": {
+        "latitude": 34.350037,
+        "longitude": 58.694553
+      }
+    },
+    {
+      "name": "گنبد کاووس",
+      "id": 743,
+      "slug": "gonbad-kavus",
+      "radius": 5500,
+      "centroid": {
+        "latitude": 37.24207,
+        "longitude": 55.181618
+      }
+    },
+    {
+      "name": "گهواره",
+      "id": 1802,
+      "slug": "gahvareh",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 34.344124,
+        "longitude": 46.41718
+      }
+    },
+    {
+      "name": "لار",
+      "id": 1730,
+      "slug": "lar",
+      "radius": 11026,
+      "centroid": {
+        "latitude": 27.664463,
+        "longitude": 54.32605
+      }
+    },
+    {
+      "name": "لامرد",
+      "id": 1731,
+      "slug": "lamerd",
+      "radius": 6602,
+      "centroid": {
+        "latitude": 27.340551,
+        "longitude": 53.18399
+      }
+    },
+    {
+      "name": "لاهیجان",
+      "id": 746,
+      "slug": "lahijan",
+      "radius": 4360,
+      "centroid": {
+        "latitude": 37.205982,
+        "longitude": 50.00578
+      }
+    },
+    {
+      "name": "لردگان",
+      "id": 787,
+      "slug": "lordegan",
+      "radius": 4100,
+      "centroid": {
+        "latitude": 31.517256,
+        "longitude": 50.82154
+      }
+    },
+    {
+      "name": "لشت نشا",
+      "id": 1690,
+      "slug": "lashtenesha",
+      "radius": 1,
+      "centroid": {
+        "latitude": 37.35891,
+        "longitude": 49.86295
+      }
+    },
+    {
+      "name": "لنجان",
+      "id": 1749,
+      "slug": "lenjan",
+      "radius": 2000,
+      "centroid": {
+        "latitude": 32.375866,
+        "longitude": 51.21297
+      }
+    },
+    {
+      "name": "لنگرود",
+      "id": 828,
+      "slug": "langarud",
+      "radius": 3000,
+      "centroid": {
+        "latitude": 37.19115,
+        "longitude": 50.155136
+      }
+    },
+    {
+      "name": "لواسان",
+      "id": 1771,
+      "slug": "lavasan-city",
+      "radius": 3750,
+      "centroid": {
+        "latitude": 35.820484,
+        "longitude": 51.632145
+      }
+    },
+    {
+      "name": "ماسال",
+      "id": 862,
+      "slug": "masal",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 37.380363,
+        "longitude": 49.146854
+      }
+    },
+    {
+      "name": "ماسوله",
+      "id": 1815,
+      "slug": "masuleh",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 37.15513,
+        "longitude": 48.989967
+      }
+    },
+    {
+      "name": "ماکو",
+      "id": 856,
+      "slug": "maku",
+      "radius": 6270,
+      "centroid": {
+        "latitude": 39.29131,
+        "longitude": 44.489895
+      }
+    },
+    {
+      "name": "ماهان",
+      "id": 1806,
+      "slug": "mahan",
+      "radius": 4350,
+      "centroid": {
+        "latitude": 30.053637,
+        "longitude": 57.288303
+      }
+    },
+    {
+      "name": "ماهدشت",
+      "id": 1753,
+      "slug": "mahdasht-city",
+      "radius": 5100,
+      "centroid": {
+        "latitude": 35.7299,
+        "longitude": 50.81109
+      }
+    },
+    {
+      "name": "مبارکه",
+      "id": 1748,
+      "slug": "mobarakeh",
+      "radius": 5900,
+      "centroid": {
+        "latitude": 32.342415,
+        "longitude": 51.50466
+      }
+    },
+    {
+      "name": "محلات",
+      "id": 840,
+      "slug": "mahalat",
+      "radius": 3500,
+      "centroid": {
+        "latitude": 33.905087,
+        "longitude": 50.458633
+      }
+    },
+    {
+      "name": "محمدشهر",
+      "id": 1752,
+      "slug": "mohammad-shahr",
+      "radius": 3850,
+      "centroid": {
+        "latitude": 35.752724,
+        "longitude": 50.903988
+      }
+    },
+    {
+      "name": "محمدیه-قزوین",
+      "id": 873,
+      "slug": "mohammadieh",
+      "radius": 2060,
+      "centroid": {
+        "latitude": 36.221375,
+        "longitude": 50.18347
+      }
+    },
+    {
+      "name": "محمودآباد",
+      "id": 837,
+      "slug": "mahmudabad",
+      "radius": 3200,
+      "centroid": {
+        "latitude": 36.628536,
+        "longitude": 52.262524
+      }
+    },
+    {
+      "name": "مراغه",
+      "id": 762,
+      "slug": "maragheh",
+      "radius": 9760,
+      "centroid": {
+        "latitude": 37.380684,
+        "longitude": 46.236366
+      }
+    },
+    {
+      "name": "مرند",
+      "id": 763,
+      "slug": "marand",
+      "radius": 4250,
+      "centroid": {
+        "latitude": 38.43119,
+        "longitude": 45.766144
+      }
+    },
+    {
+      "name": "مرودشت",
+      "id": 1788,
+      "slug": "marvdasht-city",
+      "radius": 5850,
+      "centroid": {
+        "latitude": 29.876291,
+        "longitude": 52.80629
+      }
+    },
+    {
+      "name": "مریوان",
+      "id": 814,
+      "slug": "marivan",
+      "radius": 2870,
+      "centroid": {
+        "latitude": 35.519108,
+        "longitude": 46.180264
+      }
+    },
+    {
+      "name": "مشکین\u200cشهر",
+      "id": 773,
+      "slug": "meshgin-shahr",
+      "radius": 4500,
+      "centroid": {
+        "latitude": 38.3873,
+        "longitude": 47.674034
+      }
+    },
+    {
+      "name": "مسجد سلیمان",
+      "id": 317,
+      "slug": "masjed-e-soleyman",
+      "radius": 6000,
+      "centroid": {
+        "latitude": 31.957708,
+        "longitude": 49.287884
+      }
+    },
+    {
+      "name": "ملایر",
+      "id": 843,
+      "slug": "malayer",
+      "radius": 4400,
+      "centroid": {
+        "latitude": 34.302536,
+        "longitude": 48.81713
+      }
+    },
+    {
+      "name": "ملک\u200cآباد",
+      "id": 1778,
+      "slug": "molkabad",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.999104,
+        "longitude": 59.591812
+      }
+    },
+    {
+      "name": "مهاباد",
+      "id": 769,
+      "slug": "mahabad",
+      "radius": 5000,
+      "centroid": {
+        "latitude": 36.76707,
+        "longitude": 45.728313
+      }
+    },
+    {
+      "name": "مهاجران",
+      "id": 1826,
+      "slug": "mohajeran",
+      "radius": 3050,
+      "centroid": {
+        "latitude": 34.049484,
+        "longitude": 49.431675
+      }
+    },
+    {
+      "name": "مهر",
+      "id": 1792,
+      "slug": "mohr",
+      "radius": 1850,
+      "centroid": {
+        "latitude": 27.551464,
+        "longitude": 52.882126
+      }
+    },
+    {
+      "name": "مهران",
+      "id": 1823,
+      "slug": "mehran",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 33.123672,
+        "longitude": 46.166702
+      }
+    },
+    {
+      "name": "مهریز",
+      "id": 1830,
+      "slug": "mehriz",
+      "radius": 5800,
+      "centroid": {
+        "latitude": 31.584194,
+        "longitude": 54.444565
+      }
+    },
+    {
+      "name": "میاندوآب",
+      "id": 792,
+      "slug": "miandoab",
+      "radius": 4250,
+      "centroid": {
+        "latitude": 36.967766,
+        "longitude": 46.1089
+      }
+    },
+    {
+      "name": "میانه",
+      "id": 764,
+      "slug": "mianeh",
+      "radius": 4700,
+      "centroid": {
+        "latitude": 37.42485,
+        "longitude": 47.72236
+      }
+    },
+    {
+      "name": "میبد",
+      "id": 845,
+      "slug": "meybod",
+      "radius": 15300,
+      "centroid": {
+        "latitude": 32.21285,
+        "longitude": 54.032684
+      }
+    },
+    {
+      "name": "میناب",
+      "id": 841,
+      "slug": "minab",
+      "radius": 7100,
+      "centroid": {
+        "latitude": 27.131184,
+        "longitude": 57.076424
+      }
+    },
+    {
+      "name": "مینودشت",
+      "id": 1693,
+      "slug": "minoodasht",
+      "radius": 1657,
+      "centroid": {
+        "latitude": 37.22931,
+        "longitude": 55.379745
+      }
+    },
+    {
+      "name": "نجف\u200cآباد",
+      "id": 31,
+      "slug": "najafabad",
+      "radius": 10000,
+      "centroid": {
+        "latitude": 32.63863,
+        "longitude": 51.36768
+      }
+    },
+    {
+      "name": "نسیم\u200cشهر",
+      "id": 784,
+      "slug": "nasimshahr",
+      "radius": 1950,
+      "centroid": {
+        "latitude": 35.562557,
+        "longitude": 51.16034
+      }
+    },
+    {
+      "name": "نشتارود",
+      "id": 1818,
+      "slug": "nashtarud",
+      "radius": 5650,
+      "centroid": {
+        "latitude": 36.748627,
+        "longitude": 51.035847
+      }
+    },
+    {
+      "name": "نظرآباد",
+      "id": 774,
+      "slug": "nazarabad",
+      "radius": 4080,
+      "centroid": {
+        "latitude": 35.95977,
+        "longitude": 50.605278
+      }
+    },
+    {
+      "name": "نقده",
+      "id": 770,
+      "slug": "naqadeh",
+      "radius": 3030,
+      "centroid": {
+        "latitude": 36.95819,
+        "longitude": 45.389862
+      }
+    },
+    {
+      "name": "نکا",
+      "id": 838,
+      "slug": "neka",
+      "radius": 4000,
+      "centroid": {
+        "latitude": 36.64784,
+        "longitude": 53.29312
+      }
+    },
+    {
+      "name": "نمین",
+      "id": 1742,
+      "slug": "namin",
+      "radius": 5600,
+      "centroid": {
+        "latitude": 38.424015,
+        "longitude": 48.484047
+      }
+    },
+    {
+      "name": "نور",
+      "id": 744,
+      "slug": "nur",
+      "radius": 3230,
+      "centroid": {
+        "latitude": 36.57329,
+        "longitude": 52.02422
+      }
+    },
+    {
+      "name": "نورآباد",
+      "id": 753,
+      "slug": "nurabad",
+      "radius": 2790,
+      "centroid": {
+        "latitude": 34.0679,
+        "longitude": 47.97227
+      }
+    },
+    {
+      "name": "نورآباد ممسنی",
+      "id": 1794,
+      "slug": "norabad",
+      "radius": 2500,
+      "centroid": {
+        "latitude": 30.115408,
+        "longitude": 51.522964
+      }
+    },
+    {
+      "name": "نوشهر",
+      "id": 709,
+      "slug": "nowshahr",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 36.64976,
+        "longitude": 51.490864
+      }
+    },
+    {
+      "name": "نهاوند",
+      "id": 844,
+      "slug": "nahavand",
+      "radius": 3800,
+      "centroid": {
+        "latitude": 34.194206,
+        "longitude": 48.373367
+      }
+    },
+    {
+      "name": "نی\u200cریز",
+      "id": 1726,
+      "slug": "neyriz",
+      "radius": 4891,
+      "centroid": {
+        "latitude": 29.192411,
+        "longitude": 54.319893
+      }
+    },
+    {
+      "name": "نیشابور",
+      "id": 318,
+      "slug": "neyshabur",
+      "radius": 8000,
+      "centroid": {
+        "latitude": 36.22882,
+        "longitude": 58.79653
+      }
+    },
+    {
+      "name": "وحیدیه",
+      "id": 1711,
+      "slug": "vahidieh",
+      "radius": 1263,
+      "centroid": {
+        "latitude": 35.607914,
+        "longitude": 51.031406
+      }
+    },
+    {
+      "name": "ورامین",
+      "id": 1762,
+      "slug": "varamin-city",
+      "radius": 3700,
+      "centroid": {
+        "latitude": 35.328327,
+        "longitude": 51.64603
+      }
+    },
+    {
+      "name": "هرسین",
+      "id": 1799,
+      "slug": "harsin",
+      "radius": 5750,
+      "centroid": {
+        "latitude": 34.2721,
+        "longitude": 47.5861
+      }
+    },
+    {
+      "name": "هرمز",
+      "id": 1821,
+      "slug": "hormuz",
+      "radius": 5350,
+      "centroid": {
+        "latitude": 27.068024,
+        "longitude": 56.46417
+      }
+    },
+    {
+      "name": "هشتگرد",
+      "id": 1754,
+      "slug": "hashtgerd-city",
+      "radius": 5700,
+      "centroid": {
+        "latitude": 35.964184,
+        "longitude": 50.685802
+      }
+    },
+    {
+      "name": "همدان",
+      "id": 14,
+      "slug": "hamedan",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 34.810787,
+        "longitude": 48.52082
+      }
+    },
+    {
+      "name": "هندیجان",
+      "id": 1783,
+      "slug": "hendijan",
+      "radius": 5850,
+      "centroid": {
+        "latitude": 30.236322,
+        "longitude": 49.712288
+      }
+    },
+    {
+      "name": "یاسوج",
+      "id": 38,
+      "slug": "yasuj",
+      "radius": 7000,
+      "centroid": {
+        "latitude": 30.680979,
+        "longitude": 51.564827
+      }
+    },
+    {
+      "name": "یزد",
+      "id": 16,
+      "slug": "yazd",
+      "radius": 15000,
+      "centroid": {
+        "latitude": 31.88442,
+        "longitude": 54.342766
+      }
+    }
+  ]
+}

@@ -20,6 +20,8 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         buildConfigField ("String","BASE_URL","\"https://android-interview.divar.dev/ \"")
+
+//        buildConfigField("String","token","YXBpa2V5OjY5Y1dxVW8wNGhpNFdMdUdBT2IzMmRXZXQjsllsVzBtSkNiwU9yLUxEamNDUXFMSzJnR29mS3plZg==")
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -88,10 +90,10 @@ dependencies {
     // Saved state module for ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version")
     // Annotation processor
-    annotationProcessor("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
+    kapt("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
     // room
     implementation("androidx.room:room-runtime:$room_version")
-    annotationProcessor("androidx.room:room-compiler:$room_version")
+    kapt("androidx.room:room-compiler:$room_version")
     //Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:$room_version")
     // coroutines
@@ -99,7 +101,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version")
     // hilt
     implementation("com.google.dagger:hilt-android:2.44")
-    annotationProcessor("com.google.dagger:hilt-android-compiler:2.44")
+    kapt("com.google.dagger:hilt-android-compiler:2.44")
     // retrofit
     implementation("com.squareup.retrofit2:retrofit:$retrofit_version")
     implementation("com.squareup.retrofit2:converter-gson:$retrofit_version")
@@ -107,9 +109,23 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-scalars:$retrofit_version")
     // glide
     implementation("com.github.bumptech.glide:glide:$glide_version")
-    annotationProcessor( "com.github.bumptech.glide:compiler:$glide_version")
+    kapt( "com.github.bumptech.glide:compiler:$glide_version")
 
+    //test
+    testImplementation ("junit:junit:4.13.2")
+    testImplementation ("androidx.arch.core:core-testing:$arch_version")
+    testImplementation ("androidx.test.ext:junit:1.1.4")
+    testImplementation ("androidx.test.espresso:espresso-core:3.5.0")
+    testImplementation ("androidx.arch.core:core-testing:2.1.0")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1")
+    testImplementation ("com.google.truth:truth:1.0.1")
+    testImplementation ("androidx.arch.core:core-testing:$arch_version")
+    testImplementation ("org.robolectric:robolectric:4.4")
     implementation("org.jsoup:jsoup:1.11.1")
-//test
     testImplementation("com.squareup.okhttp3:mockwebserver:4.9.0")
+
+    //room
+    implementation("androidx.room:room-runtime:2.2.4")
+    implementation("androidx.room:room-ktx:2.2.4")
+    kapt ("androidx.room:room-compiler:2.2.4")
 }
