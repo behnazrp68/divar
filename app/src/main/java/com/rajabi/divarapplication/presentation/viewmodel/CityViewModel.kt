@@ -12,8 +12,12 @@ import androidx.lifecycle.viewModelScope
 import com.rajabi.divarapplication.data.model.city.APIResponse
 import com.rajabi.divarapplication.data.util.Resource
 import com.rajabi.divarapplication.domain.usecase.GetAllCitiesUsecase
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import javax.inject.Inject
+
+
 
 class CityViewModel
     (
@@ -31,7 +35,7 @@ class CityViewModel
                 val apiResult = getAllCitiesUsecase.execute()
                 cities.postValue(apiResult)
             } else {
-                Toast.makeText(app, "", Toast.LENGTH_LONG).show()
+                Toast.makeText(app, "jhhjkh", Toast.LENGTH_LONG).show()
             }
         } catch (e: Exception) {
             cities.postValue(Resource.Error(e.message.toString()))

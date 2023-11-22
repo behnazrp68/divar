@@ -85,8 +85,11 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.5.4")
     // Saved state module for ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version")
     // Annotation processor

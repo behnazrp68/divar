@@ -10,7 +10,9 @@ class CityViewModelFactory
     private val app: Application,
     private val getAllCitiesUsecase: GetAllCitiesUsecase
 ) : ViewModelProvider.Factory {
+
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        return CityViewModel(app, getAllCitiesUsecase) as T
+        return CityViewModel(
+            app, getAllCitiesUsecase) as T
     }
 }

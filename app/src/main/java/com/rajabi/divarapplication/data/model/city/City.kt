@@ -4,7 +4,7 @@ package com.rajabi.divarapplication.data.model.city
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-@Entity(tableName = "cities")
+//@Entity(tableName = "cities")
 
 data class City(
     @SerializedName("centroid")
