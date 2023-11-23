@@ -11,8 +11,8 @@ import retrofit2.http.POST
 
 interface DivarAPIServices {
     @Headers(
-        "x-access-token: Basic",
-        "x-access-token: YXBpa2V5OjY5Y1dxVW8wNGhpNFdMdUdBT2IzMmRXZXQjsllsVzBtSkNiwU9yLUxEamNDUXFMSzJnR29mS3plZg=="
+        "x-access-token: Basic YXBpa2V5OjY5Y1dxVW8wNGhpNFdMdUdBT2IzMmRXZXQjsllsVzBtSkNiwU9yLUxEamNDUXFMSzJnR29mS3plZg==",
+
     )
     @GET("/api/v1/place/list")
     suspend fun getAllCities(): Response<APIResponse>

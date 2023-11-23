@@ -113,7 +113,8 @@ dependencies {
     // glide
     implementation("com.github.bumptech.glide:glide:$glide_version")
     kapt( "com.github.bumptech.glide:compiler:$glide_version")
-
+    //navigation
+    implementation("androidx.navigation:navigation-compose:2.7.5")
     //test
     testImplementation ("junit:junit:4.13.2")
     testImplementation ("androidx.arch.core:core-testing:$arch_version")

@@ -7,6 +7,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.rajabi.divarapplication.presentation.compose.AppNavHost
+import com.rajabi.divarapplication.presentation.compose.city.CityScreen
 import com.rajabi.divarapplication.presentation.viewmodel.CityViewModelFactory
 import com.rajabi.divarapplication.ui.theme.DivarApplicationTheme
 import dagger.hilt.android.AndroidEntryPoint
@@ -19,7 +21,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            BaseScreen(factory)
+            AppNavHost(factory = factory)
         }
 
     }
