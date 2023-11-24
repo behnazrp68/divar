@@ -4,6 +4,8 @@ import androidx.compose.runtime.Composable
 import com.rajabi.divarapplication.data.model.advertising.Widget
 
 @Composable
-fun AdvertisingItem(value: Widget) {
-    checkUiType(value =value )
+private fun SetView(data: ArrayList<Widget>) {
+    data?.forEach { value ->
+        checkUiType(value)
+    }
 }

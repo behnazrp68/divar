@@ -3,15 +3,13 @@ package com.rajabi.divarapplication.data.model.advertising
 
 import com.google.gson.annotations.SerializedName
 
-data class Data(
-    @SerializedName("city")
-    val city: String,
+data class DataX(
     @SerializedName("district")
     val district: String,
     @SerializedName("price")
     val price: String,
-    @SerializedName("subtitle")
-    val subtitle: String,
+    @SerializedName("text")
+    val text: String,
     @SerializedName("thumbnail")
     val thumbnail: String,
     @SerializedName("title")

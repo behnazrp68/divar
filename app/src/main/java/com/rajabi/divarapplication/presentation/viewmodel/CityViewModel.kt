@@ -9,24 +9,24 @@ import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.rajabi.divarapplication.data.model.advertising.APIResponseAdvertis
 import com.rajabi.divarapplication.data.model.city.APIResponse
 import com.rajabi.divarapplication.data.util.Resource
+import com.rajabi.divarapplication.domain.usecase.GetAllAdvertisingUsecase
 import com.rajabi.divarapplication.domain.usecase.GetAllCitiesUsecase
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import javax.inject.Inject
-
 
 
 class CityViewModel
     (
     private val app: Application,
-    private val getAllCitiesUsecase: GetAllCitiesUsecase
+    private val getAllCitiesUsecase: GetAllCitiesUsecase,
+    private val getAllAdvertisingUsecase: GetAllAdvertisingUsecase
 ) : AndroidViewModel(app) {
 
     val cities: MutableLiveData<Resource<APIResponse>> = MutableLiveData()
-
+    val advertisingsList: MutableLiveData<Resource<APIResponseAdvertis>> = MutableLiveData()
     fun getCities() = viewModelScope.launch(Dispatchers.IO) {
         cities.postValue(Resource.Loading())
 
@@ -35,12 +35,27 @@ class CityViewModel
                 val apiResult = getAllCitiesUsecase.execute()
                 cities.postValue(apiResult)
             } else {
-                Toast.makeText(app, "jhhjkh", Toast.LENGTH_LONG).show()
+                Toast.makeText(app, "error", Toast.LENGTH_LONG).show()
             }
         } catch (e: Exception) {
             cities.postValue(Resource.Error(e.message.toString()))
         }
+
     }
+        fun getAdvertings(cityId:Int?,page:Int,lastPostDate:Int) = viewModelScope.launch(Dispatchers.IO) {
+            advertisingsList.postValue(Resource.Loading())
+
+            try {
+                if (isNetworkAvailable(app)) {
+                    val apiResult = getAllAdvertisingUsecase.execute(cityId,page=0, lastPostDate = 0)
+                    advertisingsList.postValue(apiResult)
+                } else {
+                    Toast.makeText(app, "error", Toast.LENGTH_LONG).show()
+                }
+            } catch (e: Exception) {
+                advertisingsList.postValue(Resource.Error(e.message.toString()))
+            }
+        }
 
     private fun isNetworkAvailable(context: Context?): Boolean {
         if (context == null) return false

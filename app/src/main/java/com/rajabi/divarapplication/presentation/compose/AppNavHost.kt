@@ -32,7 +32,7 @@ fun AppNavHost(
                 }
             )
         ){
-            AdvertisingScreen(
+            AdvertisingScreen(factory=factory,
                 cityId =it.arguments?.getInt("cityId")
             )
         }

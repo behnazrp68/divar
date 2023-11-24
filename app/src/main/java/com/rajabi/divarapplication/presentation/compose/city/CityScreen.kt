@@ -2,6 +2,8 @@
 
 package com.rajabi.divarapplication.presentation.compose.city
 
+import android.widget.ProgressBar
+import android.widget.Toast
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -21,6 +23,7 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -28,20 +31,24 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.toSize
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.rajabi.divarapplication.data.util.Resource
+import com.rajabi.divarapplication.presentation.compose.advertising.Progressbar
 import com.rajabi.divarapplication.presentation.viewmodel.CityViewModel
 import com.rajabi.divarapplication.presentation.viewmodel.CityViewModelFactory
 
 @Composable
 fun CityScreen(
-    onNavigateToAdvertisingScreen:(Int)->Unit,
+    onNavigateToAdvertisingScreen: (Int) -> Unit,
     factory: CityViewModelFactory,
-               modifier: Modifier = Modifier,
-               cityViewModel: CityViewModel = viewModel(factory = factory)
+    modifier: Modifier = Modifier,
+    cityViewModel: CityViewModel = viewModel(factory = factory)
 ) {
+    LaunchedEffect(key1 = true) {
+        cityViewModel.getCities()
+
+    }
+
     val cities = cityViewModel.cities.observeAsState()
-
-    cityViewModel.getCities()
-
     var displayingCity by remember { mutableStateOf("یک شهر را انتخاب نمایید") }
     var textFieldSize by remember { mutableStateOf(Size.Zero) }
     var expanded by remember { mutableStateOf(false) }
@@ -74,7 +81,9 @@ fun CityScreen(
         DropdownMenu(
             expanded = expanded, onDismissRequest = { expanded = false },
             modifier = Modifier.width(with(LocalDensity.current) { textFieldSize.width.toDp() })
-        ) {
+        )
+        {
+
             cities.apply {
                 var citylist = cities.value?.data?.cities
                 citylist?.forEach { city ->

@@ -1,6 +1,7 @@
 package com.rajabi.divarapplication.presentation.di
 
 import android.app.Application
+import com.rajabi.divarapplication.domain.usecase.GetAllAdvertisingUsecase
 import com.rajabi.divarapplication.domain.usecase.GetAllCitiesUsecase
 import com.rajabi.divarapplication.presentation.viewmodel.CityViewModelFactory
 import dagger.Module
@@ -16,9 +17,10 @@ class FactoryModule {
     @Singleton
     fun provideCityViewModelFactory(
         app: Application,
-        getAllCitiesUsecase: GetAllCitiesUsecase
+        getAllCitiesUsecase: GetAllCitiesUsecase,
+        getAllAdvertisingUsecase: GetAllAdvertisingUsecase
     ): CityViewModelFactory {
-        return CityViewModelFactory(app, getAllCitiesUsecase)
+        return CityViewModelFactory(app, getAllCitiesUsecase,getAllAdvertisingUsecase)
     }
 
 }
